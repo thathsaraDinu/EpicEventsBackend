@@ -10,6 +10,7 @@ const eventSchemaModel = new Schema({
     eventCountry: {type: String, required: true},
     eventCity: {type: String, required: true},
     eventAddress: {type: String},
+    eventPhoto: { type: String },
     isFeatured: Boolean
 });
 
